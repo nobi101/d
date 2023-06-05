@@ -17,7 +17,7 @@ from datetime import date
 import requests, random
 import uuid, re
 from pystyle import Write,Colors
-os.system('title TOOL GỘP PAGE PROFILE')
+os.system('title TOOL GỘP TRAODOISUB')
 
 time=datetime.now().strftime("%H:%M:%S")
 from pystyle import *
@@ -48,6 +48,8 @@ print("├─────┼─────────────────�
 print("│  4  │ TDS TIKTOK                         │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print("│  5  │ TDS TIKTOK MAX SPEED               │ ONLINE  │  [1.0]  │")
+print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print("│  6  │ QUAY LẠI                           │   =.=   │   NEXT  │")
 print("└─────┴────────────────────────────────────┴─────────┴─────────┘\n")
 chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
@@ -62,6 +64,8 @@ try:
                 run = requests.get('https://raw.githubusercontent.com/nobi101/tiktok/main/tiktok.md').text
         elif chon == '5':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/tiktokspeed/main/tiktokspeed.md').text
+        elif chon == '6':
+                run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
 except:

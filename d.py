@@ -36,8 +36,8 @@ print('             ██║     ██║  ██║██║ ╚████�
 print('             ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚══════╝')
 print('           Copyright © FRIVE-Tool 2023 | Version 1.1')
 print(f"               Ngày: {ngay_hom_nay} Tháng: {thang_nay} Năm: {nam_}\n")
-print('[•] Zalo group: https://zalo.me/g/cdcazh320')        
-print('[•] Email: fivetool.official@gmail.com')        
+print('[•] Zalo group: https://zalo.me/g/cdcazh320')
+print('[•] Email: fivetool.official@gmail.com')
 print('[•] Youtube: https://www.youtube.com/@TOOLFRIVE')
 print("┌─────┬────────────────────────────────────┬─────────┬─────────┐")
 print("│ STT │             MENU TOOL              │ STATUS  │ VERSION │")

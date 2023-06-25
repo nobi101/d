@@ -59,14 +59,16 @@ try:
         if chon == '1':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/facebooki/main/facebook.py').text
         elif chon == '2':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/tdspr5/main/tdspr5.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/facebook2/main/facebook2.py').text
         elif chon == '3':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/ins/main/ins.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/tdspr5/main/tdspr5.py').text
         elif chon == '4':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/tiktok/main/tiktok.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/ins/main/ins.py').text
         elif chon == '5':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/tiktokspeed/main/tiktokspeed.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/tiktok/main/tiktok.py').text
         elif chon == '6':
+                run = requests.get('https://raw.githubusercontent.com/nobi101/tiktokspeed/main/tiktokspeed.py').text
+        elif chon == '7':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')

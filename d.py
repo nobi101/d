@@ -72,7 +72,7 @@ try:
         elif chon == '6':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/tiktokspeed/main/tiktokspeed.py').text
         elif chon == '7':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/nokey/main/Nokey.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
 except:
